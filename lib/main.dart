@@ -32,19 +32,19 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
-  void _incrementCounterPlus() {
+  void _incrementCounter() {
     setState(() {
       _counter++;
     });
   }
-  void _incrementCounterMin() {
+  void _decrementCounter() {
     setState(() {
       if(_counter != 0){
         _counter--;
       }
     });
   }
-  void _incrementCounterReset() {
+  void _counterReset() {
     setState(() {
         _counter = 0;
     });
@@ -132,19 +132,19 @@ class _MyHomePageState extends State<MyHomePage> {
         mainAxisAlignment: MainAxisAlignment.end,
         children: [
           FloatingActionButton(
-            onPressed: _incrementCounterPlus,
+            onPressed: _incrementCounter,
             tooltip: 'Increment',
             child: const Icon(Icons.add),
           ),
           const SizedBox(height: 20),
           FloatingActionButton(
-            onPressed: _incrementCounterMin,
+            onPressed: _decrementCounter,
             tooltip: 'Increment',
             child: const Icon(Icons.minimize),
           ),
           const SizedBox(height: 20),
           FloatingActionButton(
-            onPressed: _incrementCounterReset,
+            onPressed: _counterReset,
             tooltip: 'Increment',
             child: const Icon(Icons.restore),
           ),
