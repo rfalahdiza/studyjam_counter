@@ -2,6 +2,15 @@
 
 A new Flutter project.
 
+Study Jam GDGOC Android Development Brawijaya University.
+
+Name : Rafa Falah Diza
+
+NIM : 265150400111053
+
+## Screenshot Project Android Aplication
+![Screenshot](./images/Screenshot.jpeg)
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
