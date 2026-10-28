@@ -6,7 +6,7 @@ Name : Rafa Falah Diza
 NIM : 265150400111053
 
 ## Screenshot Project Android Aplication
-![Screenshot](./images/screenshot.jpeg)
+![Screenshot](./images/Screenshot.jpeg)
 
 ## Getting Started
 
