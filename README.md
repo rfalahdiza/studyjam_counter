@@ -1,8 +1,11 @@
 # studyjam_counter
 
 A new Flutter project.
+
 Study Jam GDGOC Android Development Brawijaya University.
+
 Name : Rafa Falah Diza
+
 NIM : 265150400111053
 
 ## Screenshot Project Android Aplication
